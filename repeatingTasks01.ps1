@@ -1,10 +1,10 @@
-<#In PowerShell, do while and do until are used to execute a block of code repeatedly 
+<#In PowerShell, do-while and do-until are implemented to execute a code again and again 
 until a certain condition is met. #>
 #DO 
 # 'do' executes once even if it's false
 
-<#The Do-Until loop will continue to loop while the condition is false. 
-Do-While will continue to loop while the condition is true. #>
+<#The Do-Until loop continues to loop while the condition is false. 
+Do-While continues to loop while the condition is true. #>
 
 do{
     Write-Output 'Hi'

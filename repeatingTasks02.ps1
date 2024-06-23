@@ -1,3 +1,8 @@
+<#Iteration is a very powerful method by which objects in a code are processed one by one
+ and actions are taken against them. #>
+<#It is a continuously repeating loop which is utilised when you have to repeat 
+a task a certain number of times,  process a collection, or specify items by an index number.#>
+
 for($i=0;$i -lt 10;$i++){
     Write-Output $i
 }
